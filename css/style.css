@@ -393,7 +393,8 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(40, 38, 70, 0.8);
+  background: #000; 
+  /* background: rgba(40, 38, 70, 0.8); */
   transition: 0.4s;
 }
 
@@ -414,7 +415,8 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  /* color: #8dc2fa; */
+  color:#ffcc00;
   text-decoration: none;
 }
 
@@ -460,7 +462,8 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  /* color: #065e77; */
+  color : #000;
 }
 
 .mobile-nav-overly {
@@ -470,7 +473,8 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  /* background: rgba(40, 38, 70, 0.8); */
+  background: rgb(26 26 26 / 80%);
   overflow: hidden;
   display: none;
 }
