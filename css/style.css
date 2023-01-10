@@ -52,7 +52,7 @@ p {
     margin: 0 0 30px 0;
     text-align: justify;
     color: #5c5656;
-    font-weight: 600;
+    /* font-weight: 0; */
 }
 
 h1,
@@ -528,6 +528,7 @@ h6 {
 
 #about .about-content {
   padding-top: 40px;
+  font-family: ui-sans-serif;
 }
 
 #about .about-content h2 {
@@ -664,6 +665,7 @@ h6 {
 
 #why-us {
   padding: 60px 0;
+  font-family: ui-sans-serif;
 }
 
 #why-us .why-us-content .features {
